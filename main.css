@@ -3,6 +3,7 @@ body {
     --light-bg: #3f3f3f;
 
     font-family: 'Cinzel', sans-serif;
+    font-size: 1.1em;
     background: var(--light-bg);
 
     background:
@@ -41,7 +42,7 @@ body {
 }
 
 #mainbody p {
-    font-size: 1.5em;
+    font-size: 1.4em;
     width: 70%;
     margin: auto;
 }
