@@ -1,0 +1,47 @@
+body {
+    --dark-bg: #333;
+    --light-bg: #3f3f3f;
+
+    font-family: 'Cinzel', sans-serif;
+    background: var(--light-bg);
+
+    background:
+        linear-gradient(135deg, var(--dark-bg) 21px, var(--light-bg) 22px, var(--light-bg) 24px, transparent 24px, transparent 67px, var(--light-bg) 67px, var(--light-bg) 69px, transparent 69px),
+        linear-gradient(225deg, var(--dark-bg) 21px, var(--light-bg) 22px, var(--light-bg) 24px, transparent 24px, transparent 67px, var(--light-bg) 67px, var(--light-bg) 69px, transparent 69px)0 64px;
+    background-color:var(--dark-bg);
+    background-size: 64px 128px;
+
+    display: grid;
+    grid-template-rows: 25em auto;
+    grid-template-areas:
+        "slideshow"
+        "body";
+}
+
+#slideshow {
+    height: 25em;
+    width: auto;
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #222;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(5deg);
+    z-index: -1;
+}
+
+#mainbody {
+    grid-area: body;
+    text-align: center;
+    color: white;
+}
+
+#mainbody h1 {
+    font-size: 4em;
+}
+
+#mainbody p {
+    font-size: 1.5em;
+    width: 70%;
+    margin: auto;
+}
