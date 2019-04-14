@@ -10,6 +10,8 @@ function switchImage() {
         prevPic = num;
 
         $('#slideshow').attr('src', './images/image' + num + '.jpg');
+        var deg = Math.floor((Math.random() * 20) - 9);
+        $('#slideshow').css('transform', 'rotate(' + deg + 'deg)');
         $('#slideshow').fadeIn(500);
     });
 }
