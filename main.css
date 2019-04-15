@@ -4,6 +4,7 @@ body {
 
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
+    color: white;
     background: var(--light-bg);
 
     background:
@@ -47,4 +48,8 @@ body {
     font-size: 1.4em;
     width: 70%;
     margin: auto;
+}
+
+table, th, td {
+    border: 1px solid white;
 }
