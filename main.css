@@ -2,7 +2,7 @@ body {
     --dark-bg: #333;
     --light-bg: #3f3f3f;
 
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 1.1em;
     background: var(--light-bg);
 
@@ -39,7 +39,8 @@ body {
 }
 
 #mainbody h1 {
-    font-size: 4em;
+    font-family: 'Tangerine', serif;
+    font-size: 5em;
 }
 
 #mainbody p {
