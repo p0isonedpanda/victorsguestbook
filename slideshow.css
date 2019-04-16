@@ -1,0 +1,7 @@
+body {
+    grid-template-rows: 45em auto;
+}
+
+#slideshow {
+    height: 40em;
+}
