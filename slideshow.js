@@ -1,4 +1,4 @@
-var picCount = 38;
+var picCount = 103;
 var prevPic = 0;
 
 function switchImage() {
